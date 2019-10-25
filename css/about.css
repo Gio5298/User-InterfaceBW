@@ -1,0 +1,420 @@
+.paragraph-set {
+  display: flex;
+  border-bottom: 3px solid #e79600;
+  margin: 1rem 2%;
+  padding: 1.3rem 0;
+}
+.paragraph-set .main-para {
+  padding: 5px;
+  text-align: center;
+  background-color: #9c9c9c;
+  border-radius: 10px;
+}
+.paragraph-set .main-para h2 {
+  font-size: 2.5rem;
+  color: black;
+}
+.paragraph-set .main-para p {
+  font-size: 1.8rem;
+  color: black;
+  margin: 0 4rem;
+}
+.paragraph-set .main-para button {
+  margin-top: 3rem;
+}
+.paragraph-set img {
+  border-radius: 12px;
+}
+.button-design {
+  font-size: 1.8rem;
+  background-color: #e79600;
+  border: 2px solid #e79600;
+  border-radius: 5px;
+  padding: 10px 30px;
+}
+.mobile-margin {
+  margin: 0 auto;
+  width: 90%;
+}
+.mobile-flex {
+  display: flex;
+  flex-direction: column;
+}
+.mobileH2AndP h2 {
+  border-bottom: 2px solid black;
+}
+.mobileH2AndP p {
+  text-align: center;
+}
+.aboutSections {
+  display: flex;
+}
+.aboutSections .person {
+  margin: 1.5rem auto;
+  text-align: center;
+}
+.aboutSections .person h1 {
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+.aboutSections .person p {
+  font-size: 1.8rem;
+}
+.aboutSections .person img {
+  width: 65%;
+  border-radius: 7px;
+}
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+html {
+  font-size: 62.5%;
+  background-color: #444444;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Montserrat Alternates', sans-serif;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
+}
+p {
+  font-family: 'Montserrat', sans-serif;
+}
+body {
+  margin: 0 auto;
+  width: 1300px;
+  background-color: whitesmoke;
+}
+button {
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+header {
+  display: flex;
+  justify-content: flex-end;
+  background-color: #e79600;
+}
+@media (max-width: 500px) {
+  header {
+    margin: 0 auto;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+header h1 {
+  font-size: 2rem;
+  color: black;
+  padding: 0.3rem;
+  margin: auto 3rem;
+  margin-right: auto;
+  border: 2px solid black;
+}
+@media (max-width: 500px) {
+  header h1 {
+    text-align: center;
+    margin: 0 auto;
+  }
+}
+header .navBar {
+  width: 50%;
+}
+header .navDes {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+@media (max-width: 500px) {
+  header .navDes {
+    margin: 0 auto;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+header a {
+  font-size: 2.1rem;
+  color: black;
+  text-decoration: none;
+  margin: 1.5rem 2rem;
+  font-weight: 600;
+}
+@media (max-width: 500px) {
+  header a {
+    font-size: 1.7rem;
+  }
+}
+header .top-header {
+  margin: auto 0;
+}
+@media (max-width: 500px) {
+  header .top-header {
+    display: none;
+  }
+}
+header form.search-bar input[type=text] {
+  padding: 5px;
+  margin-top: 10px;
+  font-size: 1.6rem;
+  border: 1px solid grey;
+  border-radius: 4px 0 0 4px;
+  width: 80%;
+  background: whitesmoke;
+}
+@media (max-width: 500px) {
+  header form.search-bar input[type=text] {
+    font-size: 1.5rem;
+  }
+}
+header form.search-bar button {
+  float: right;
+  width: 20%;
+  padding: 5px;
+  margin-top: 10px;
+  background: gray;
+  color: white;
+  font-size: 1.6rem;
+  border: 1px solid grey;
+  border-radius: 0 4px 4px 0;
+  border-left: none;
+  cursor: pointer;
+}
+@media (max-width: 500px) {
+  header form.search-bar button {
+    padding: 4px;
+  }
+}
+footer {
+  text-align: center;
+  background-color: #e79600;
+  padding: 5px 0;
+}
+footer h3 {
+  font-size: 1.9rem;
+  font-weight: 600;
+}
+footer p {
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+body {
+  margin: 0 auto;
+  width: 100%;
+  background-color: #2e2e2e;
+}
+.main-sect {
+  margin: 5rem;
+  background-color: #e79600;
+  border-radius: 5px;
+}
+.top-mid {
+  display: flex;
+}
+.top-mid .person {
+  margin: 1.5rem auto;
+  text-align: center;
+}
+.top-mid .person h1 {
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+.top-mid .person p {
+  font-size: 1.8rem;
+}
+.top-mid .person img {
+  width: 65%;
+  border-radius: 7px;
+}
+.top-mid .gael-img {
+  width: 80%;
+}
+.mid-mid {
+  display: flex;
+}
+.mid-mid .person {
+  margin: 1.5rem auto;
+  text-align: center;
+}
+.mid-mid .person h1 {
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+.mid-mid .person p {
+  font-size: 1.8rem;
+}
+.mid-mid .person img {
+  width: 65%;
+  border-radius: 7px;
+}
+.bottom-mid {
+  display: flex;
+}
+.bottom-mid .person {
+  margin: 1.5rem auto;
+  text-align: center;
+}
+.bottom-mid .person h1 {
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+.bottom-mid .person p {
+  font-size: 1.8rem;
+}
+.bottom-mid .person img {
+  width: 65%;
+  border-radius: 7px;
+}
+.bottom-bottom {
+  display: flex;
+}
+.bottom-bottom .person {
+  margin: 1.5rem auto;
+  text-align: center;
+}
+.bottom-bottom .person h1 {
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+.bottom-bottom .person p {
+  font-size: 1.8rem;
+}
+.bottom-bottom .person img {
+  width: 65%;
+  border-radius: 7px;
+}
